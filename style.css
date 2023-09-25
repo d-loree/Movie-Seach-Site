@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family: Cambria;
+    text-decoration: none;
+}
+
+h3 {
+    color:white;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Top navbar */
+.top-nav {
+    overflow: hidden;
+    background-color: rgb(20, 33, 61);
+    padding: 1.56vw;
+    width: 100%;
+    height: 5.7vw;
+    margin: auto;
+}
+
+.top-nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size:  1.8vw;
+    padding-left: 50px;
+}
+
+.top-nav .search-container {
+    float: right;
+}
+
+/* Search Bar */
+form {
+    background-color: rgb(229,229,229);
+    width: 15.6vw;
+    height: 2.6vw;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    opacity: 0.5;
+    color: black;
+}
+
+input {
+    all: unset;
+    font: 1vw system-ui;
+    color: black;
+    height: 100%;
+    width: 100%;
+    padding: 6px;
+}
+
+/* Movie cards layout */
+.column {
+    float: left;
+    width: 25%;
+    padding: 0.78vw 0.78vw;
+}
+
+/* Movie Cards */
+.movie-card {
+    border-radius: 20px;
+    padding: 15px;
+    text-align: center;
+    background-color: rgb(20, 33, 61);
+    height: 28vw; 
+    overflow: hidden;
+}
+
+#title {
+    font-size: 1.75vw;
+    margin-top: 1.3vw;
+}
+
+.movie-card:hover {
+    opacity: 0.8;
+}
+
+.thumbnail {
+    height: 65%;
+    width: 65%;
+    border-radius: 15px;
+}
